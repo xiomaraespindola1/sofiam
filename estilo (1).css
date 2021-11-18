@@ -1,0 +1,2748 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Play:wght@700&display=swap');
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color:  #ffffff;
+}
+
+.contenedor{
+	width: 100%;
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+	grid-template-areas: "header	header		header" 
+						"navbar		navbar		navbar"
+						"contenido	contenido	sidebar"
+						"footer		footer		footer";
+
+	grid-template: 		"header" 90px
+						"navbar" 50px
+						"contenido" 800px
+						"sidebar"	350px
+						"footer"	75px;
+}
+
+.contenedor	.header{
+	background-color: #ffffff;
+	grid-area: header;
+	
+}
+
+.contenedor .navbar{
+	grid-area: navbar;
+	background-color: #ffffff;
+	padding: 20px;
+
+}
+
+.contenedor	.contenido{
+	grid-area: contenido;
+	background-color: #00b386;
+	background-image: url(fondodos.jpeg);
+}
+
+
+.contenedor	.sidebar{
+	background-color: #daf1e6;
+	grid-area: sidebar;
+}
+
+
+.contenedor	.footer{
+	background-color: #308259;
+	grid-area: footer;
+	padding: 20px;
+}
+
+
+#logo{
+	margin-right: 10%;
+	position: relative; top: -30%;
+}
+
+.navbar{
+	margin-left: 50%;
+}
+
+.navbar li{
+	display: inline;
+}
+
+.navbar li a{
+	margin-left: 20%;
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: #000000;
+	font-size: 18px;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 46%;
+	font-family: 'Kanit', sans-serif;
+}
+
+.logoup{
+	margin-left: 5%;
+	position:relative;top: -100%;
+}
+
+.disney{
+	margin-left: 80%;
+	position:relative;top: -140%;
+}
+
+h1{
+
+	color: #ecf8f2;
+	margin left: 20%;
+	padding: 1%;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	position: relative; top: 3%;
+}
+
+#rex{
+	position: relative; top: -5%;
+	margin-left: 9%;
+}
+
+.video{
+	margin-right: 50%;
+}
+
+p{
+	font-family: 'Play', sans-serif;
+}
+
+#probar{
+	margin-left: 74%;
+	position: relative; top: -25%;
+	font-size: 20px;
+	color: #ecf8f2;
+	margin-right: 3%;
+	
+}
+
+.imagenes{
+	margin-left: 10%;
+	position: relative; top: -4%;
+	padding: 1%;
+}
+
+.pelota{
+	margin-left: 10%;
+	position: relative; top: -4%;
+}
+
+h3{
+	font-family: 'Play', sans-serif;
+	margin-left: 2%;
+	position: relative; top: 3%;
+}
+
+
+.galeria{
+	padding: 1%;
+	margin-left: 2%;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 40%;
+	font-size: 15px;
+}
+
+.botondos{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 5%;
+	font-size: 15px;
+}
+
+
+
+/*interna generos*/
+
+h2{
+	margin-left: 5%;
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+}
+
+#accion{
+	background-color: #79AD7F;
+	position: relative; top: 5%;
+	padding: 6%;
+}
+
+#aventura{
+	background-color: #79AD7F;
+	position: relative; top: -18%;
+	padding: 6%;
+}
+
+#arcade{
+	background-color: #79AD7F;
+	position: relative; top: -41%;
+	padding: 6%;
+}
+
+
+.cuatro{
+	margin-left: 23%;
+	padding: 1%;
+	position: relative; top: -20%;
+}
+
+.siete{
+	margin-left: 2%;
+	padding: 1%;
+	position: relative; top: -20%;
+}
+
+.tres{
+	margin-left: 23%;
+	padding: 1%;
+	position: relative; top: -43%;
+}
+
+.cinco{
+	margin-left: 2%;
+	padding: 1%;
+	position: relative; top: -43%;
+}
+
+.uno{
+	margin-left: 23%;
+	padding: 1%;
+	position: relative; top: -67%;
+}
+
+.seis{
+	margin-left: 2%;
+	padding: 1%;
+	position: relative; top: -67%;
+}
+
+.compra{
+	margin-left: 30%;
+	position: relative; top: 30%;
+	font-size: 20px;
+}
+
+.botongeneros{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	font-size: 15px;
+	margin-left: 48%;
+	position: relative; top: 40%;
+}
+
+
+
+/*interna productos*/
+
+.produ{
+	background-color: #153827;
+	position: relative; top: 5%;
+	width: 14.5%;
+	height: 40%;
+	margin-left: 8%;
+
+}
+
+.sillas{
+	margin-left: 20%;
+	color: #ffffff;
+	position: relative; top: 5%;
+}
+
+.precio{
+	margin-left: 25%;
+	color: #ffffff;
+	position: relative; top: 5%;
+	
+}
+
+.produdos{
+	background-color: #153827;
+	position: relative; top: -35%;
+	width: 14.5%;
+	height: 40%;
+	margin-left: 30%;
+}
+
+.produtres{
+	background-color: #153827;
+	position: relative; top: -75%;
+	width: 14.5%;
+	height: 40%;
+	margin-left: 52%;
+}
+
+.producuatro{
+	background-color: #153827;
+	position: relative; top: -115%;
+	width: 14.5%;
+	height: 40%;
+	margin-left: 74%;
+}
+
+.joystick{
+	position: relative; top: -110%;
+}
+
+
+.controles{
+	margin-left: 25%;
+	color: #ffffff;
+	position: relative; top: 5%;
+}
+
+.js{
+	background-color: #153827;
+	position: relative; top: -108%;
+	width: 15.1%;
+	height: 30%;
+	margin-left: 8%;
+}
+
+.jsdos{
+	background-color: #153827;
+	position: relative; top: -138%;
+	width: 15.1%;
+	height: 30%;
+	margin-left: 30%;
+}
+
+.joytres{
+	background-color: #153827;
+	position: relative; top: -168%;
+	width: 14.4%;
+	height: 30%;
+	margin-left: 52%;
+}
+
+.joycuatro{
+	background-color: #153827;
+	position: relative; top: -198%;
+	width: 14.4%;
+	height: 30%;
+	margin-left: 74%;
+}
+
+.regalo{
+	color: #000000;
+	padding: 2%;
+	margin-left: 2%;
+}
+
+.funkos{
+	margin-left: 3%;
+}
+
+
+.botonregalo{
+	width: 100px;
+	height: 30px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 6%;
+	font-size: 15px;
+}
+
+.botonregalos{
+	width: 100px;
+	height: 30px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	margin-left: 8%;
+	font-size: 15px;
+}
+
+
+/*interna contacto*/
+
+#formulario{
+	position: relative; top: 8%;
+	width: 40%;
+	max-width: 1280px;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: auto;
+	background-color: #308259;
+	border-width: thick;
+	border-style: double ; color: #0E4241;
+}
+
+.cajal{
+	margin-left: 13%;
+
+}
+
+.datos{
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+	margin-left: 10%;
+	font-size: 20px;
+
+}
+
+.cajac{
+	width: 200px;
+	height: 60px;
+	margin-left: 13%;
+}
+
+#atencion{
+	margin-left: 50%;
+	width: 40%;
+	position: relative; top: -57%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+#horarios{
+	margin-left: 50%;
+	width: 40%;
+	position: relative; top: -50%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+.logos{
+	margin-left: 13%;
+	
+	position: relative; top: -8%;
+}
+
+.iconos{
+	background-color: #79AD7F;
+	width: 30%;
+	height: 90%;
+	margin-left: 5%;
+}
+
+.tienda{
+	margin-left: 10%;
+	padding: 15%;
+}
+
+.telefono{
+	margin-left: 40%;
+}
+
+.numero{
+	margin-left: 33%;
+	padding: 4%;
+}
+
+.envios{
+	background-color: #79AD7F;
+	width: 57%;
+	height: 90%;
+	margin-left: 38%;
+	position: relative; top: -90%;
+}
+
+.ubi{
+	margin-left: 65%;
+	padding: 7%;
+}
+
+.direc{
+	margin-left: 70%;
+
+}
+.mapa{
+	position: relative; top: -55%;
+	margin-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+/* COMIENZAN LOS CODIGOS CELULAR */
+
+
+/* Celular */
+@media (min-width: 576px) and (max-width: 767px)
+{
+	.contenedor{
+	width: 100%;
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+	grid-template-areas: "header" 
+						"navbar"
+						"contenido"
+						"sidebar"
+						"footer";
+
+	grid-template: 		"header" 80px
+						"navbar" 50px
+						"contenido" 800px
+						"sidebar"	350px
+						"footer"	75px;
+}
+
+body{
+	background-color:  #ffffff;
+}
+
+.contenedor	.header{
+	background-color: #ffffff;
+	grid-area: header;
+	
+}
+
+.contenedor .navbar{
+	grid-area: navbar;
+	background-color: #ffffff;
+	padding: 20px;
+
+}
+
+.contenedor	.contenido{
+	grid-area: contenido;
+	background-color: #00b386;
+	background-image: url(fondodos.jpeg);
+}
+
+
+.contenedor	.sidebar{
+	background-color: #daf1e6;
+	grid-area: sidebar;
+}
+
+
+.contenedor	.footer{
+	background-color: #308259;
+	grid-area: footer;
+	padding: 20px;
+}
+
+
+#logo{
+	margin-right: 10%;
+	position: relative; top: -50%;
+	width: 300px;
+}
+
+.navbar{
+	padding: 1%;
+	margin-left: 5%;
+}
+
+.navbar li{
+	display: inline;
+}
+
+.navbar li a{
+	margin-left: 10%;
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: #000000;
+	font-size: 18px;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 35%;
+	font-family: 'Kanit', sans-serif;
+}
+
+.logoup{
+	margin-left: 1%;
+	position:relative;top: -100%;
+}
+
+.disney{
+	margin-left: 60%;
+	position:relative;top: -160%;
+}
+
+h1{
+	color: #ecf8f2;
+	margin left: 20%;
+	padding: 1%;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	position: relative; top: 1%;
+}
+
+#rex{
+	position: relative; top: -5%;
+	margin-left: 9%;
+	display: none;
+}
+
+.video{
+	margin-right: 50%;
+	position: relative; top: -25%;
+}
+
+p{
+	font-family: 'Play', sans-serif;
+}
+
+#probar{
+	margin-left: 2%;
+	position: relative; top: 1%;
+	font-size: 20px;
+	color: #ecf8f2;
+	
+}
+
+.imagenes{
+	margin-left: 20%;
+	position: relative; top: 2%;
+	padding: 1%;
+	width: 300px;
+}
+
+.pelota{
+	margin-left: 10%;
+	position: relative; top: -4%;
+	display: none;
+}
+
+h3{
+	font-family: 'Play', sans-serif;
+	margin-left: 2%;
+	position: relative; top: 2%;
+}
+
+
+.galeria{
+	padding: 1%;
+	margin-left: 2%;
+	width: 105px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left:70%;
+	font-size: 15px;
+	position: relative; top: -40%;
+}
+
+.botondos{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -35%;
+}
+
+/*interna generos*/
+
+h2{
+	margin-left: 2%;
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+}
+
+#accion{
+	background-color: #79AD7F;
+	position: relative; top: 5%;
+	padding: 10%;
+}
+
+#aventura{
+	background-color: #79AD7F;
+	position: relative; top: 1%;
+	padding: 10%;
+}
+
+#arcade{
+	background-color: #79AD7F;
+	position: relative; top: -12%;
+	padding: 10%;
+}
+
+
+.cuatro{
+	margin-left: 27.5%;
+	width: 70px;
+	position: relative; top: -10%;
+}
+
+.siete{
+	margin-left: 2%;
+	padding: 1%;
+	width: 70px;
+	position: relative; top: -10%;
+}
+
+.tres{
+	margin-left: 33%;
+	padding: 1%;
+	width: 70px;
+	position: relative; top: -15%;
+}
+
+.cinco{
+	margin-left: 2%;
+	padding: 1%;
+	width: 70px;
+	position: relative; top: -15%;
+}
+
+.uno{
+	margin-left: 27.5%;
+	padding: 1%;
+	width: 70px;
+	position: relative; top: -25%;
+}
+
+.seis{
+	margin-left: 2%;
+	padding: 1%;
+	width: 70px;
+	position: relative; top: -25%;
+}
+
+.compra{
+	margin-left: 5%;
+	position: relative; top: 30%;
+	font-size: 15px;
+}
+
+.botongeneros{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	font-size: 15px;
+	margin-left: 40%;
+	position: relative; top: 40%;
+}
+
+/*interna productos*/
+
+.produ{
+	background-color: #153827;
+	position: relative; top: 2%;
+	width: 21%;
+	height: 28%;
+	margin-left: 2%;
+}
+
+.sillas{
+	margin-left: 10%;
+	color: #ffffff;
+	position: relative; top: 5%;
+	font-size: 13px;
+}
+
+.precio{
+	margin-left: 10%;
+	color: #ffffff;
+	position: relative; top: 3%;
+	font-size: 13px;
+}
+
+.sillaroja{
+	width: 120px;
+}
+
+.produdos{
+	background-color: #153827;
+	position: relative; top: -26%;
+	width: 21%;
+	height: 28%;
+	margin-left: 26%;
+}
+
+.sillarosa{
+	width: 120px;
+}
+
+.produtres{
+	background-color: #153827;
+	position: relative; top: -54%;
+	width: 21%;
+	height: 28%;
+	margin-left: 50%;
+}
+
+.sillaazul{
+	width: 120px;
+}
+
+.producuatro{
+	background-color: #153827;
+	position: relative; top: -82%;
+	width: 21%;
+	height: 28%;
+	margin-left: 75%;
+}
+
+.sillaverde{
+	width: 120px;
+}
+
+.joystick{
+	position: relative; top: -80%;
+}
+
+
+.controles{
+	margin-left: 25%;
+	color: #ffffff;
+	position: relative; top: 5%;
+}
+
+.js{
+	background-color: #153827;
+	position: relative; top: -78%;
+	width: 21%;
+	height: 20%;
+	margin-left: 2%;
+}
+
+.joyrojo{
+	width: 120px;
+}
+
+.jsdos{
+	background-color: #153827;
+	position: relative; top: -98%;
+	width: 21%;
+	height: 20%;
+	margin-left: 26%;
+}
+
+.joyrosa{
+	width: 120px;
+}
+
+.joytres{
+	background-color: #153827;
+	position: relative; top: -118%;
+	width: 21%;
+	height: 23%;
+	margin-left: 50%;
+}
+
+.joyazul{
+	width: 120px;
+}
+
+.joycuatro{
+	background-color: #153827;
+	position: relative; top: -141%;
+	width: 21%;
+	height: 23%;
+	margin-left: 75%;
+}
+
+.joyverde{
+	width: 120px;
+}
+
+
+.regalo{
+	color: #000000;
+	padding: 2%;
+	margin-left: 5%;
+	font-size: 15px;
+}
+
+.funkos{
+	margin-left: 2%;
+	width: 70px;
+}
+
+.buzz{
+	margin-left: 1%;
+	width: 70px;
+}
+
+.marciano{
+	margin-left: 1%;
+	width: 70px;
+}
+
+.woody{
+	margin-left: 1%;
+	width: 70px;
+}
+
+.bo{
+	margin-left: 1%;
+	width: 70px;
+}
+
+.frex{
+	margin-left: 1%;
+	width: 70px;
+}
+
+.caballo{
+	margin-left: 1%;
+	width: 70px;
+}
+
+.botonregalo{
+	width: 40px;
+	height: 30px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 6%;
+	font-size: 12px;
+}
+
+.botonregalos{
+	width: 40px;
+	height: 30px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 6%;
+	font-size: 12px;
+}
+
+/*interna contacto*/
+
+#formulario{
+	position: relative; top: 2%;
+	width: 40%;
+	max-width: 1280px;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: auto;
+	background-color: #308259;
+	border-width: thick;
+	border-style: double ; color: #0E4241;
+}
+
+.cajal{
+	margin-left: 10%;
+
+}
+
+.datos{
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+	margin-left: 10%;
+	font-size: 15px;
+
+}
+
+.cajac{
+	width: 165px;
+	height: 60px;
+	margin-left: 10%;
+}
+
+#atencion{
+	margin-left: 50%;
+	width: 43%;
+	position: relative; top: -60%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+#horarios{
+	margin-left: 50%;
+	width: 43%;
+	position: relative; top: -50%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+.logos{
+	margin-left: 18%;
+	position: relative; top: 15%;
+}
+
+.iconos{
+	background-color: #79AD7F;
+	width: 30%;
+	height: 90%;
+	margin-left: 2%;
+}
+
+.tienda{
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.telefono{
+	margin-left: 25%;
+	position: relative; top: 25%;
+}
+
+.numero{
+	margin-left: 15%;
+	position: relative; top: 25%;
+}
+
+.envios{
+	background-color: #79AD7F;
+	width: 57%;
+	height: 90%;
+	margin-left: 35%;
+	position: relative; top: -90%;
+}
+
+.ubi{
+	margin-left: 62%;
+	padding: 7%;
+}
+
+.direc{
+	margin-left: 70%;
+
+}
+.mapa{
+	position: relative; top: -48%;
+	margin-left: 2%;
+	width: 200px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -40%;
+}
+
+}
+
+
+
+/* COMIENZAN LOS CODIGOS TABLET */
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	.contenedor{
+	width: 100%;
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+	grid-template-areas: "header	header" 
+						"navbar		navbar"
+						"contenido	contenido"
+						"sidebar	sidebar"
+						"footer		footer";
+
+	grid-template: 		"header		header" 80px
+						"navbar		navbar" 50px
+						"contenido	contenido" 800px
+						"sidebar	sidebar"	350px
+						"footer		footer"	75px;
+}
+
+body{
+	background-color:  #ffffff;
+}
+
+.contenedor	.header{
+	background-color: #ffffff;
+	grid-area: header;
+	
+}
+
+.contenedor .navbar{
+	grid-area: navbar;
+	background-color: #ffffff;
+	padding: 20px;
+
+}
+
+.contenedor	.contenido{
+	grid-area: contenido;
+	background-color: #00b386;
+	background-image: url(fondodos.jpeg);
+}
+
+
+.contenedor	.sidebar{
+	background-color: #daf1e6;
+	grid-area: sidebar;
+}
+
+
+.contenedor	.footer{
+	background-color: #308259;
+	grid-area: footer;
+	padding: 20px;
+}
+
+
+#logo{
+	margin-right: 8%;
+	position: relative; top: -50%;
+	width: 300px;
+}
+
+.navbar{
+	padding: 1%;
+	margin-left: 10%;
+}
+
+.navbar li{
+	display: inline;
+}
+
+.navbar li a{
+	margin-left: 12%;
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: #000000;
+	font-size: 18px;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 40%;
+	font-family: 'Kanit', sans-serif;
+}
+
+.logoup{
+	margin-left: 1%;
+	position:relative;top: -100%;
+}
+
+.disney{
+	margin-left: 70%;
+	position:relative;top: -160%;
+}
+
+h1{
+	color: #ecf8f2;
+	margin left: 20%;
+	padding: 1%;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	position: relative; top: 1%;
+}
+
+#rex{
+	position: relative; top: -5%;
+	margin-left: 9%;
+	display: none;
+}
+
+.video{
+	margin-left: 70%;
+	position: relative; top: -25%;
+}
+
+p{
+	font-family: 'Play', sans-serif;
+}
+
+#probar{
+	margin-left: 15%;
+	position: relative; top: 1%;
+	font-size: 20px;
+	color: #ecf8f2;
+	
+}
+
+.imagenes{
+	margin-left: 25%;
+	position: relative; top: 2%;
+	padding: 1%;
+	width: 320px;
+}
+
+.pelota{
+	margin-left: 10%;
+	position: relative; top: -4%;
+	display: none;
+}
+
+h3{
+	font-family: 'Play', sans-serif;
+	margin-left: 2%;
+	position: relative; top: 2%;
+}
+
+.galeria{
+	padding: 1%;
+	margin-left: 7%;
+	width: 115px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -40%;
+}
+
+.botondos{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -35%;
+}
+
+/*interna generos*/
+
+h2{
+	margin-left: 2%;
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+}
+
+#accion{
+	background-color: #79AD7F;
+	position: relative; top: 5%;
+	padding: 10%;
+}
+
+#aventura{
+	background-color: #79AD7F;
+	position: relative; top: -1%;
+	padding: 10%;
+}
+
+#arcade{
+	background-color: #79AD7F;
+	position: relative; top: -9%;
+	padding: 10%;
+}
+
+
+.cuatro{
+	margin-left: 27.5%;
+	width: 90px;
+	position: relative; top: -14%;
+}
+
+.siete{
+	margin-left: 2%;
+	padding: 1%;
+	width: 90px;
+	position: relative; top: -14%;
+}
+
+.tres{
+	margin-left: 30%;
+	padding: 1%;
+	width: 90px;
+	position: relative; top: -20%;
+}
+
+.cinco{
+	margin-left: 2%;
+	padding: 1%;
+	width: 90px;
+	position: relative; top: -20%;
+}
+
+.uno{
+	margin-left: 30%;
+	padding: 1%;
+	width: 90px;
+	position: relative; top: -28%;
+}
+
+.seis{
+	margin-left: 2%;
+	padding: 1%;
+	width: 90px;
+	position: relative; top: -28%;
+}
+
+.compra{
+	margin-left: 20%;
+	position: relative; top: 30%;
+	font-size: 15px;
+}
+
+.botongeneros{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	font-size: 15px;
+	margin-left: 45%;
+	position: relative; top: 40%;
+}
+
+/*interna productos*/
+
+.produ{
+	background-color: #153827;
+	position: relative; top: 2%;
+	width: 21%;
+	height: 28%;
+	margin-left: 2%;
+}
+
+.sillas{
+	margin-left: 15%;
+	color: #ffffff;
+	position: relative; top: 5%;
+	font-size: 13px;
+}
+
+.precio{
+	margin-left: 18%;
+	color: #ffffff;
+	position: relative; top: -2%;
+	font-size: 13px;
+}
+
+.sillaroja{
+	width: 162px;
+}
+
+.produdos{
+	background-color: #153827;
+	position: relative; top: -26%;
+	width: 21%;
+	height: 28%;
+	margin-left: 26%;
+}
+
+.sillarosa{
+	width: 162px;
+}
+
+.produtres{
+	background-color: #153827;
+	position: relative; top: -54%;
+	width: 21%;
+	height: 28%;
+	margin-left: 50%;
+}
+
+.sillaazul{
+	width: 162px;
+}
+
+.producuatro{
+	background-color: #153827;
+	position: relative; top: -82%;
+	width: 21%;
+	height: 28%;
+	margin-left: 75%;
+}
+
+.sillaverde{
+	width: 162px;
+}
+
+.joystick{
+	position: relative; top: -70%;
+}
+
+
+.controles{
+	margin-left: 15%;
+	color: #ffffff;
+	position: relative; top: 5%;
+}
+
+.js{
+	background-color: #153827;
+	position: relative; top: -65%;
+	width: 21%;
+	height: 20%;
+	margin-left: 2%;
+}
+
+.joyrojo{
+	width: 162px;
+}
+
+.jsdos{
+	background-color: #153827;
+	position: relative; top: -85%;
+	width: 21%;
+	height: 20%;
+	margin-left: 26%;
+}
+
+.joyrosa{
+	width: 162px;
+}
+
+.joytres{
+	background-color: #153827;
+	position: relative; top: -105%;
+	width: 21%;
+	height: 23%;
+	margin-left: 50%;
+}
+
+.joyazul{
+	width: 162px;
+}
+
+.joycuatro{
+	background-color: #153827;
+	position: relative; top: -128%;
+	width: 21%;
+	height: 23%;
+	margin-left: 75%;
+}
+
+.joyverde{
+	width: 162px;
+}
+
+
+.regalo{
+	color: #000000;
+	padding: 2%;
+	margin-left: 5%;
+	font-size: 15px;
+}
+
+.funkos{
+	margin-left: 1%;
+	width: 95px;
+}
+
+.buzz{
+	margin-left: 1%;
+	width: 95px;
+}
+
+.marciano{
+	margin-left: 1%;
+	width: 95px;
+}
+
+.woody{
+	margin-left: 1%;
+	width: 95px;
+}
+
+.bo{
+	margin-left: 1%;
+	width: 95px;
+}
+
+.frex{
+	margin-left: 1%;
+	width: 95px;
+}
+
+.caballo{
+	margin-left: 1%;
+	width: 95px;
+}
+
+.botonregalo{
+	width: 70px;
+	height: 30px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 4%;
+	font-size: 12px;
+}
+
+.botonregalos{
+	width: 70px;
+	height: 30px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 4%;
+	font-size: 12px;
+}
+
+/*interna contacto*/
+
+#formulario{
+	position: relative; top: 2%;
+	width: 40%;
+	max-width: 1280px;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: auto;
+	background-color: #308259;
+	border-width: thick;
+	border-style: double ; color: #0E4241;
+}
+
+.cajal{
+	margin-left: 10%;
+
+}
+
+.datos{
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+	margin-left: 10%;
+	font-size: 15px;
+
+}
+
+.cajac{
+	width: 165px;
+	height: 60px;
+	margin-left: 10%;
+}
+
+#atencion{
+	margin-left: 50%;
+	width: 43%;
+	position: relative; top: -60%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+#horarios{
+	margin-left: 50%;
+	width: 43%;
+	position: relative; top: -50%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+.logos{
+	margin-left: 18%;
+	position: relative; top: 15%;
+}
+
+.iconos{
+	background-color: #79AD7F;
+	width: 30%;
+	height: 90%;
+	margin-left: 2%;
+}
+
+.tienda{
+	margin-left: 2%;
+	padding: 1%;
+}
+
+.telefono{
+	margin-left: 25%;
+	position: relative; top: 25%;
+}
+
+.numero{
+	margin-left: 15%;
+	position: relative; top: 25%;
+}
+
+.envios{
+	background-color: #79AD7F;
+	width: 57%;
+	height: 90%;
+	margin-left: 35%;
+	position: relative; top: -90%;
+}
+
+.ubi{
+	margin-left: 62%;
+	padding: 7%;
+}
+
+.direc{
+	margin-left: 70%;
+
+}
+
+.mapa{
+	position: relative; top: -48%;
+	margin-left: 2%;
+	width: 270px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -40%;
+}
+
+}
+
+/* COMIENZAN LOS CODIGOS L */
+
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+	.contenedor{
+	width: 100%;
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+	grid-template-areas: "header	header		header" 
+						"navbar		navbar		navbar"
+						"contenido	contenido	contenido"
+						"sidebar	sidebar		sidebar"
+						"footer		footer		footer";
+
+	grid-template: 		"header		header		header" 90px
+						"navbar		navbar		navbar" 50px
+						"contenido	contenido	contenido" 800px
+						"sidebar	sidebar		sidebar"	350px
+						"footer		footer		footer"	75px;
+}
+
+body{
+	background-color:  #ffffff;
+}
+
+.contenedor	.header{
+	background-color: #ffffff;
+	grid-area: header;
+	
+}
+
+.contenedor .navbar{
+	grid-area: navbar;
+	background-color: #ffffff;
+	padding: 20px;
+
+}
+
+.contenedor	.contenido{
+	grid-area: contenido;
+	background-color: #00b386;
+	background-image: url(fondodos.jpeg);
+}
+
+
+.contenedor	.sidebar{
+	background-color: #daf1e6;
+	grid-area: sidebar;
+}
+
+
+.contenedor	.footer{
+	background-color: #308259;
+	grid-area: footer;
+	padding: 20px;
+}
+
+
+#logo{
+	margin-right: 10%;
+	position: relative; top: -50%;
+	width: 315px;
+}
+
+.navbar{
+	padding: 1%;
+	margin-left: 10%;
+}
+
+.navbar li{
+	display: inline;
+}
+
+.navbar li a{
+	margin-left: 12%;
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: #000000;
+	font-size: 25px;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 45%;
+	font-family: 'Kanit', sans-serif;
+}
+
+.logoup{
+	margin-left: 1%;
+	position:relative;top: -100%;
+}
+
+.disney{
+	margin-left: 75%;
+	position:relative;top: -160%;
+}
+
+h1{
+	color: #ecf8f2;
+	margin left: 20%;
+	padding: 1%;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	position: relative; top: 1%;
+}
+
+#rex{
+	position: relative; top: -2%;
+	margin-left: 8%;
+	width: 250px;
+	
+}
+
+.video{
+	margin-left: 70%;
+	position: relative; top: -25%;
+}
+
+p{
+	font-family: 'Play', sans-serif;
+}
+
+#probar{
+	margin-left: 15%;
+	position: relative; top: 3%;
+	font-size: 25px;
+	color: #ecf8f2;
+	
+}
+
+.imagenes{
+	margin-left: 5%;
+	position: relative; top: 8%;
+	padding: 1%;
+	width: 400px;
+}
+
+.pelota{
+	margin-left: 9%;
+	position: relative; top: 12%;
+
+}
+
+h3{
+	font-family: 'Play', sans-serif;
+	margin-left: 8%;
+	position: relative; top: 2%;
+}
+
+.galeria{
+	padding: 1%;
+	margin-left: 8%;
+	width: 120px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -40%;
+}
+
+.botondos{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -35%;
+}
+
+/*interna generos*/
+
+h2{
+	margin-left: 2%;
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+}
+
+#accion{
+	background-color: #79AD7F;
+	position: relative; top: 2%;
+	padding: 10%;
+}
+
+#aventura{
+	background-color: #79AD7F;
+	position: relative; top: -16%;
+	padding: 10%;
+}
+
+#arcade{
+	background-color: #79AD7F;
+	position: relative; top: -35%;
+	padding: 10%;
+}
+
+
+.cuatro{
+	margin-left: 25%;
+	width: 120px;
+	position: relative; top: -23%;
+}
+
+.siete{
+	margin-left: 2%;
+	padding: 1%;
+	width: 120px;
+	position: relative; top: -23%;
+}
+
+.tres{
+	margin-left: 30%;
+	padding: 1%;
+	width: 120px;
+	position: relative; top: -40%;
+}
+
+.cinco{
+	margin-left: 1%;
+	padding: 1%;
+	width: 120px;
+	position: relative; top: -40%;
+}
+
+.uno{
+	margin-left: 27%;
+	padding: 1%;
+	width: 120px;
+	position: relative; top: -60%;
+}
+
+.seis{
+	margin-left: 2%;
+	padding: 1%;
+	width: 120px;
+	position: relative; top: -60%;
+}
+
+.compra{
+	margin-left: 25%;
+	position: relative; top: 30%;
+	font-size: 15px;
+}
+
+.botongeneros{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	font-size: 15px;
+	margin-left: 45%;
+	position: relative; top: 40%;
+}
+
+/*interna productos*/
+
+.produ{
+	background-color: #153827;
+	position: relative; top: 2%;
+	width: 20%;
+	height: 37%;
+	margin-left: 2%;
+}
+
+.sillas{
+	margin-left: 20%;
+	color: #ffffff;
+	position: relative; top: 5%;
+	font-size: 13px;
+}
+
+.precio{
+	margin-left: 25%;
+	color: #ffffff;
+	position: relative; top: 5%;
+	font-size: 13px;
+}
+
+.sillaroja{
+	width: 200px;
+}
+
+.produdos{
+	background-color: #153827;
+	position: relative; top: -35%;
+	width: 20%;
+	height: 37%;
+	margin-left: 26%;
+}
+
+.sillarosa{
+	width: 200px;
+}
+
+.produtres{
+	background-color: #153827;
+	position: relative; top: -72%;
+	width: 20%;
+	height: 37%;
+	margin-left: 50%;
+}
+
+.sillaazul{
+	width: 200px;
+}
+
+.producuatro{
+	background-color: #153827;
+	position: relative; top: -109%;
+	width: 20%;
+	height: 37%;
+	margin-left: 75%;
+}
+
+.sillaverde{
+	width: 200px;
+}
+
+.joystick{
+	position: relative; top: -100%;
+}
+
+
+.controles{
+	margin-left: 20%;
+	color: #ffffff;
+	position: relative; top: 5%;
+}
+
+.js{
+	background-color: #153827;
+	position: relative; top: -95%;
+	width: 18%;
+	height: 25%;
+	margin-left: 2%;
+}
+
+.joyrojo{
+	width: 180px;
+}
+
+.jsdos{
+	background-color: #153827;
+	position: relative; top: -120%;
+	width: 18%;
+	height: 25%;
+	margin-left: 26%;
+}
+
+.joyrosa{
+	width: 180px;
+}
+
+.joytres{
+	background-color: #153827;
+	position: relative; top: -145%;
+	width: 18%;
+	height: 28%;
+	margin-left: 50%;
+}
+
+.joyazul{
+	width: 180px;
+}
+
+.joycuatro{
+	background-color: #153827;
+	position: relative; top: -173%;
+	width: 18%;
+	height: 28%;
+	margin-left: 75%;
+}
+
+.joyverde{
+	width: 180px;
+}
+
+
+.regalo{
+	color: #000000;
+	padding: 2%;
+	margin-left: 5%;
+	font-size: 15px;
+}
+
+.funkos{
+	margin-left: 1%;
+	width: 125px;
+}
+
+.buzz{
+	margin-left: 1%;
+	width: 125px;
+}
+
+.marciano{
+	margin-left: 1%;
+	width: 125px;
+}
+
+.woody{
+	margin-left: 1%;
+	width: 125px;
+}
+
+.bo{
+	margin-left: 1%;
+	width: 125px;
+}
+
+.frex{
+	margin-left: 1%;
+	width: 125px;
+}
+
+.caballo{
+	margin-left: 1%;
+	width: 125px;
+}
+
+.botonregalo{
+	width: 90px;
+	height: 30px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 4%;
+	font-size: 12px;
+}
+
+.botonregalos{
+	width: 100px;
+	height: 30px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 4%;
+	font-size: 15px;
+}
+
+/*interna contacto*/
+
+#formulario{
+	position: relative; top: 2%;
+	width: 40%;
+	max-width: 1280px;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: auto;
+	background-color: #308259;
+	border-width: thick;
+	border-style: double ; color: #0E4241;
+}
+
+.cajal{
+	margin-left: 10%;
+
+}
+
+.datos{
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+	margin-left: 10%;
+	font-size: 15px;
+
+}
+
+.cajac{
+	width: 165px;
+	height: 60px;
+	margin-left: 10%;
+}
+
+#atencion{
+	margin-left: 50%;
+	width: 43%;
+	position: relative; top: -60%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+#horarios{
+	margin-left: 50%;
+	width: 43%;
+	position: relative; top: -50%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+.logos{
+	margin-left: 10%;
+	position: relative; top: 15%;
+}
+
+.iconos{
+	background-color: #79AD7F;
+	width: 30%;
+	height: 90%;
+	margin-left: 2%;
+}
+
+.tienda{
+	margin-left: 10%;
+	padding: 1%;
+}
+
+.telefono{
+	margin-left: 30%;
+	position: relative; top: 30%;
+}
+
+.numero{
+	margin-left: 23%;
+	position: relative; top: 30%;
+}
+
+.envios{
+	background-color: #79AD7F;
+	width: 57%;
+	height: 90%;
+	margin-left: 35%;
+	position: relative; top: -90%;
+}
+
+.ubi{
+	margin-left: 62%;
+	padding: 7%;
+}
+
+.direc{
+	margin-left: 69%;
+
+}
+
+.mapa{
+	position: relative; top: -48%;
+	margin-left: 2%;
+	width: 350px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -40%;
+}
+
+}
+
+
+/* COMIENZAN LOS CODIGOS XL */
+
+
+@media (min-width: 1200px) and (max-width: 1390px)
+
+{ 
+	.contenedor{
+	width: 100%;
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+	grid-template-areas: "header	header		header" 
+						"navbar		navbar		navbar"
+						"contenido	contenido	contenido"
+						"sidebar	sidebar		sidebar"
+						"footer		footer		footer";
+
+	grid-template: 		"header		header		header" 100px
+						"navbar		navbar		navbar" 50px
+						"contenido	contenido	contenido" 800px
+						"sidebar	sidebar		sidebar"	350px
+						"footer		footer		footer"	75px;
+}
+
+body{
+	background-color:  #ffffff;
+}
+
+.contenedor	.header{
+	background-color: #ffffff;
+	grid-area: header;
+	
+}
+
+.contenedor .navbar{
+	grid-area: navbar;
+	background-color: #ffffff;
+	padding: 20px;
+
+}
+
+.contenedor	.contenido{
+	grid-area: contenido;
+	background-color: #00b386;
+	background-image: url(fondodos.jpeg);
+}
+
+
+.contenedor	.sidebar{
+	background-color: #daf1e6;
+	grid-area: sidebar;
+}
+
+
+.contenedor	.footer{
+	background-color: #308259;
+	grid-area: footer;
+	padding: 20px;
+}
+
+
+#logo{
+	margin-right: 10%;
+	position: relative; top: -50%;
+	width: 500px;
+}
+
+.navbar{
+	padding: 1%;
+	margin-left: 35%;
+}
+
+.navbar li{
+	display: inline;
+}
+
+.navbar li a{
+	margin-left: 15%;
+	text-decoration: none;
+	font-family: 'Kanit', sans-serif;
+	color: #000000;
+	font-size: 25px;
+}
+
+.nombre{
+	text-decoration: none;
+	color: #ffffff;
+	margin-left: 48%;
+	font-family: 'Kanit', sans-serif;
+}
+
+.logoup{
+	margin-left: 1%;
+	position:relative;top: -100%;
+}
+
+.disney{
+	margin-left: 80%;
+	position:relative;top: -160%;
+}
+
+h1{
+	color: #ecf8f2;
+	margin left: 20%;
+	padding: 2%;
+	text-align: center;
+	font-family: 'Play', sans-serif;
+	position: relative; top: 1%;
+}
+
+#rex{
+	position: relative; top: -2%;
+	margin-left: 2%;
+	width: 300px;
+	
+}
+
+.video{
+	margin-left: 70%;
+	position: relative; top: -30%;
+}
+
+p{
+	font-family: 'Play', sans-serif;
+}
+
+#probar{
+	margin-left: 80%;
+	position: relative; top: -30%;
+	font-size: 25px;
+	color: #ecf8f2;
+}
+
+.imagenes{
+	margin-left: 6%;
+	position: relative; top: -8%;
+	padding: 1%;
+	width: 500px;
+}
+
+.pelota{
+	margin-left: 10%;
+	position: relative; top: -8%;
+}
+
+h3{
+	font-family: 'Play', sans-serif;
+	margin-left: 5%;
+	position: relative; top: 2%;
+}
+
+.galeria{
+	margin-left: 8%;
+	width: 120px;
+}
+
+.boton{
+	width: 120px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -20%;
+}
+
+.botondos{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -33%;
+}
+
+/*interna generos*/
+
+h2{
+	margin-left: 2%;
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+}
+
+#accion{
+	background-color: #79AD7F;
+	position: relative; top: 2%;
+	padding: 8%;
+}
+
+#aventura{
+	background-color: #79AD7F;
+	position: relative; top: -20%;
+	padding: 8%;
+}
+
+#arcade{
+	background-color: #79AD7F;
+	position: relative; top: -42%;
+	padding: 8%;
+}
+
+
+.cuatro{
+	margin-left: 25%;
+	width: 150px;
+	position: relative; top: -25%;
+}
+
+.siete{
+	margin-left: 2%;
+	padding: 1%;
+	width: 150px;
+	position: relative; top: -25%;
+}
+
+.tres{
+	margin-left: 25%;
+	padding: 1%;
+	width: 150px;
+	position: relative; top: -47%;
+}
+
+.cinco{
+	margin-left: 1%;
+	padding: 1%;
+	width: 150px;
+	position: relative; top: -47%;
+}
+
+.uno{
+	margin-left: 25%;
+	padding: 1%;
+	width: 150px;
+	position: relative; top: -68%;
+}
+
+.seis{
+	margin-left: 1%;
+	padding: 1%;
+	width: 150px;
+	position: relative; top: -68%;
+}
+
+.compra{
+	margin-left: 35%;
+	position: relative; top: 30%;
+	font-size: 15px;
+}
+
+.botongeneros{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	font-size: 15px;
+	margin-left: 50%;
+	position: relative; top: 40%;
+}
+
+/*interna productos*/
+
+.produ{
+	background-color: #153827;
+	position: relative; top: 2%;
+	width: 20%;
+	height: 40%;
+	margin-left: 3%;
+}
+
+.sillas{
+	margin-left: 25%;
+	color: #ffffff;
+	position: relative; top: 5%;
+	font-size: 13px;
+}
+
+.precio{
+	margin-left: 30%;
+	color: #ffffff;
+	position: relative; top: 5%;
+	font-size: 13px;
+}
+
+.sillaroja{
+	width: 240px;
+}
+
+.produdos{
+	background-color: #153827;
+	position: relative; top: -38%;
+	width: 20%;
+	height: 40%;
+	margin-left: 28%;
+}
+
+.sillarosa{
+	width: 240px;
+}
+
+.produtres{
+	background-color: #153827;
+	position: relative; top: -78%;
+	width: 20%;
+	height: 40%;
+	margin-left: 53%;
+}
+
+.sillaazul{
+	width: 240px;
+}
+
+.producuatro{
+	background-color: #153827;
+	position: relative; top: -118%;
+	width: 20%;
+	height: 40%;
+	margin-left: 78%;
+}
+
+.sillaverde{
+	width: 240px;
+}
+
+.joystick{
+	position: relative; top: -115%;
+}
+
+
+.controles{
+	margin-left: 25%;
+	color: #ffffff;
+	position: relative; top: 5%;
+}
+
+.js{
+	background-color: #153827;
+	position: relative; top: -110%;
+	width: 18%;
+	height: 25%;
+	margin-left: 4%;
+}
+
+.joyrojo{
+	width: 220px;
+}
+
+.jsdos{
+	background-color: #153827;
+	position: relative; top: -135%;
+	width: 18%;
+	height: 28%;
+	margin-left: 28%;
+}
+
+.joyrosa{
+	width: 220px;
+}
+
+.joytres{
+	background-color: #153827;
+	position: relative; top: -163%;
+	width: 18%;
+	height: 29%;
+	margin-left: 54%;
+}
+
+.joyazul{
+	width: 220px;
+}
+
+.joycuatro{
+	background-color: #153827;
+	position: relative; top: -192%;
+	width: 18%;
+	height: 28%;
+	margin-left: 78%;
+}
+
+.joyverde{
+	width: 220px;
+}
+
+
+.regalo{
+	color: #000000;
+	padding: 2%;
+	margin-left: 5%;
+	font-size: 25px;
+}
+
+.funkos{
+	margin-left: 6%;
+	width: 140px;
+}
+
+.buzz{
+	margin-left: 1%;
+	width: 140px;
+}
+
+.marciano{
+	margin-left: 1%;
+	width: 140px;
+}
+
+.woody{
+	margin-left: 1%;
+	width: 140px;
+}
+
+.bo{
+	margin-left: 1%;
+	width: 140px;
+}
+
+.frex{
+	margin-left: 1%;
+	width: 140px;
+}
+
+.caballo{
+	margin-left: 1%;
+	width: 140px;
+}
+
+.botonregalo{
+	width: 90px;
+	height: 25px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 6%;
+	font-size: 12px;
+}
+
+.botonregalos{
+	width: 100px;
+	height: 25px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 5%;
+	font-size: 15px;
+}
+
+/*interna contacto*/
+
+#formulario{
+	position: relative; top: 2%;
+	width: 40%;
+	max-width: 1280px;
+	height: 80%;
+	margin-left: 5%;
+	margin-right: auto;
+	background-color: #308259;
+	border-width: thick;
+	border-style: double ; color: #0E4241;
+}
+
+.cajal{
+	margin-left: 10%;
+
+}
+
+.datos{
+	color: #ffffff;
+	font-family: 'Play', sans-serif;
+	margin-left: 10%;
+	font-size: 20px;
+
+}
+
+.cajac{
+	width: 170px;
+	height: 60px;
+	margin-left: 10%;
+}
+
+#atencion{
+	margin-left: 50%;
+	width: 43%;
+	position: relative; top: -60%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+#horarios{
+	margin-left: 50%;
+	width: 43%;
+	position: relative; top: -50%;
+	padding: 4%;
+	background-color: #79AD7F;
+}
+
+.logos{
+	margin-left: 10%;
+	position: relative; top: 15%;
+}
+
+.iconos{
+	background-color: #79AD7F;
+	width: 30%;
+	height: 90%;
+	margin-left: 2%;
+}
+
+.tienda{
+	margin-left: 12%;
+	padding: 1%;
+}
+
+.telefono{
+	margin-left: 30%;
+	position: relative; top: 30%;
+}
+
+.numero{
+	margin-left: 23%;
+	position: relative; top: 30%;
+}
+
+.envios{
+	background-color: #79AD7F;
+	width: 57%;
+	height: 90%;
+	margin-left: 35%;
+	position: relative; top: -90%;
+}
+
+.ubi{
+	margin-left: 62%;
+	padding: 7%;
+}
+
+.direc{
+	margin-left: 69%;
+
+}
+
+.mapa{
+	position: relative; top: -48%;
+	margin-left: 2%;
+	width: 420px;
+}
+
+.boton{
+	width: 100px;
+	height: 50px;
+	background-color: #0E4241;
+	color: #FFFFFF;
+	font-family: 'Kanit', sans-serif;
+	margin-left: 70%;
+	font-size: 15px;
+	position: relative; top: -40%;
+}
+
+}
